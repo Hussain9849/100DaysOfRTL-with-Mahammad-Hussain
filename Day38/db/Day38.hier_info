@@ -1,0 +1,23 @@
+|Encoder42_Using_mux21
+I[0] => ~NO_FANOUT~
+I[1] => I[1].IN1
+I[2] => I[2].IN1
+I[3] => I[3].IN2
+Y[0] <= mux21:m0.y
+Y[1] <= mux21:m1.y
+
+
+|Encoder42_Using_mux21|mux21:m0
+i[0] => y.DATAA
+i[1] => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Encoder42_Using_mux21|mux21:m1
+i[0] => y.DATAA
+i[1] => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

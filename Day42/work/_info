@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day42
+vnbit_binary_to_gray
+Z1 !s110 1755013530
+!i10b 1
+!s100 a8JeHOE0oP5STMI4an=0Q3
+IcUPCEmQ2]o]2WcA6Q@@5a2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755013503
+8nbit_binary_to_gray.v
+Fnbit_binary_to_gray.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1755013530.000000
+Z5 !s107 nbit_binary_to_gray.v|nbit_binary_to_gray_tb.v|
+Z6 !s90 -reportprogress|300|nbit_binary_to_gray_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vnbit_binary_to_gray_tb
+R1
+!i10b 1
+!s100 OfjbNYC^83Sl5bd<B<D>21
+IWEnGo1KZE:dT<a5XX?HCD0
+R2
+R0
+w1755013524
+8nbit_binary_to_gray_tb.v
+Fnbit_binary_to_gray_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

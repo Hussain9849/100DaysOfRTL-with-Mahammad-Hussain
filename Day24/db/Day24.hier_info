@@ -1,0 +1,57 @@
+|GrayToBinary_3bit
+g2 => g2.IN3
+g1 => g1.IN3
+g0 => I_b0[0].IN2
+b2 <= Mux_4_1:M1.y
+b1 <= Mux_4_1:M2.y
+b0 <= Mux_4_1:M3.y
+
+
+|GrayToBinary_3bit|Mux_4_1:M1
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GrayToBinary_3bit|Mux_4_1:M2
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GrayToBinary_3bit|Mux_4_1:M3
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

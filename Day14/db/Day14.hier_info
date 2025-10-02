@@ -1,0 +1,14 @@
+|FullSubtractor
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Borr <= Borr.DB_MAX_OUTPUT_PORT_TYPE
+A => Diff.IN0
+A => Borr.IN0
+A => Borr.IN0
+B => Diff.IN1
+B => Borr.IN0
+B => Borr.IN1
+Bin => Diff.IN1
+Bin => Borr.IN1
+Bin => Borr.IN1
+
+

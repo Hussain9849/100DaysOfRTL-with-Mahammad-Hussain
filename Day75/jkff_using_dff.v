@@ -1,0 +1,19 @@
+`timescale 1ns/1ps
+`include "d_ff_edgeTrigger_using_mux.v"
+module jkff_using_dff(j,k,clk,q,qb);
+  input j,k,clk;
+  output q,qb;
+  wire [3:0]n;
+  wire wq,wqb;
+   not n1(n[2],k);
+   and A1(n[0],wqb,j);
+   and A2(n[3],n[2],wq);
+   or o1(n[1],n[0],n[3]);
+   d_ff_et_um d(.D(n[1]),.clk(clk),.Q(wq),.Qb(wqb));
+   not n1(n[2],k);
+   and A1(n[0],wqb,j);
+   and A2(n[3],n[2],wq);
+   or o1(n[1],n[0],n[3]);
+   assign q = wq;
+   assign qb = wqb;
+endmodule

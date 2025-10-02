@@ -1,0 +1,22 @@
+module Mux_as_Inverter(A,i0,i1,Abar);
+  input i0,i1;
+  input A;//as select line
+  output Abar;
+  assign Abar = (~A&i0) | (A&i1);
+endmodule
+
+module Mux_as_Inverter_TB;
+  reg i0,i1,A;
+  wire Abar;
+   
+  Mux_as_Inverter UUT(.A(A), .i0(i0), .i1(i1), .Abar(Abar));
+  
+  initial begin
+    $display("Time\t  A | Abar");
+    $monitor("%g\t  %b | %b",$time,A,Abar);
+    i0 = 1; i1 = 0;
+    A = 1'b0;#10;
+    A = 1'b1;#10;
+    $finish;
+  end
+endmodule

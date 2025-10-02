@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day45
+vmux2_1
+Z1 !s110 1755262972
+!i10b 1
+!s100 BQHbL5@C?R_4OTeOg3AV]2
+IEnlXj?XGo=aW>6e>3?GY42
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755262071
+8mux2_1.v
+Fmux2_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1755262972.000000
+Z5 !s107 mux2_1.v|mux71using21.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vmux71using21
+R1
+!i10b 1
+!s100 ;;]celKU2Ba70CFNVSkmb2
+IWA^i<=neF7:W3CBU0H3Zh3
+R2
+R0
+w1755262938
+8mux71using21.v
+Fmux71using21.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb
+R1
+!i10b 1
+!s100 @I;6Y1mfW7<K3E^B@Y2Bk3
+IYFiiVMhl=hfEQP`j]n7Q62
+R2
+R0
+w1755262967
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

@@ -1,0 +1,9 @@
+module Demux1_4(E,i,s,y);
+  input i;
+  input [1:0]s;
+  output [3:0]y;
+   assign y[0] = E & ~s[1] & ~s[0]&i;
+   assign y[1] = E & ~s[1] & s[0]&i;
+   assign y[2] = E & s[1] & ~s[0]&i;
+   assign y[3] = E & s[1] & s[0]&i;
+endmodule

@@ -1,0 +1,24 @@
+module 4_1Mux(i,s,y);
+ input [3:0]i;
+ input s1,s0;
+ output y;
+ assign y = (~s1 & ~s0 & i[0]) | (~s1 & s0 & i[1]) | (s1 & ~s0 & i[2]) | (s1 & s0 & i[3]);
+endmodule
+
+
+module 4_1Mux_TB;
+ reg [3:0]i;
+ reg s1,s0;
+ wire y;
+
+ 4_1Mux UUT(.[3:0]i([3:0]i),.s1(s1),.s0(s0),.y(y));
+   initial begin
+     $display("Time\t s1 s0 | y");
+     $monitor("%g\t  %b %b  | %b",$time s1,s2,y);
+     s1 = 1'b0; s0 = 1'b0;#10;
+     s1 = 1'b0; s0 = 1'b1;#10;
+     s1 = 1'b1; s0 = 1'b0;#10;
+     s1 = 1'b1; s0 = 1'b1;#10; 
+     $finish;
+   end
+endmodule

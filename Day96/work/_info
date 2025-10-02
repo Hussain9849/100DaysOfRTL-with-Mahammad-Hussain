@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day96
+vmoore_seq_non_ove
+!s110 1759218151
+!i10b 1
+!s100 m^mA:cZ_iF7UbV@z>IBUK2
+If3aL?FzOUR=`_>3j=6LjG2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1759217688
+8moore_seq_non_ove.v
+Fmoore_seq_non_ove.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1759218151.000000
+!s107 moore_seq_non_ove.v|tb.v|
+Z3 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z4 tCvgOpt 0
+vmoore_seq_ove
+Z5 !s110 1759234287
+!i10b 1
+!s100 @g<AJnm__FnjiOeRCI7><1
+I=Q8SCETRe2j7CUIU>Baic0
+R1
+R0
+w1759233277
+8moore_seq_ove.v
+Fmoore_seq_ove.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1759234287.000000
+Z7 !s107 moore_seq_ove.v|tb.v|
+R3
+!i113 1
+R4
+vtb
+R5
+!i10b 1
+!s100 M8Cb:7hI850cn<9:iRC4T0
+IkEeAW1[M]>N9E6Kbc_Ef02
+R1
+R0
+w1759234257
+8tb.v
+Ftb.v
+L0 2
+R2
+r1
+!s85 0
+31
+R6
+R7
+R3
+!i113 1
+R4

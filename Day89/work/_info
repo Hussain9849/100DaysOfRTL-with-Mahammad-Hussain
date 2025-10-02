@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day-NN-up-down-asy
+vDecade_count_asyn
+Z1 !s110 1758882004
+!i10b 1
+!s100 MRRPQl<Ze<fU`bYbV52Ei1
+InaTS<PdF9DC1FA2j8TR>m1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/intelFPGA/18.1/100Days/Day-NN-03-Decade-count-asyn-89
+w1758881996
+8Decade_count_asyn.v
+FDecade_count_asyn.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1758882004.000000
+Z6 !s107 Decade_count_asyn.v|tb.v|
+Z7 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z8 tCvgOpt 0
+n@decade_count_asyn
+vtb
+R1
+!i10b 1
+!s100 20V9>eKfI;KeJJUVF8?[Z1
+IYe@_iL:=ZenFVVm3izA2:3
+R2
+R3
+w1758370709
+8tb.v
+Ftb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vup_down_3bit_count_asyn
+!s110 1758370140
+!i10b 1
+!s100 bS[nH`_YXc>g`0WkMNkI^3
+IYgzI;C`Ti]TVSC^0j0n:J2
+R2
+R0
+w1758369767
+8up_down_3bit_count_asyn.v
+Fup_down_3bit_count_asyn.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1758370140.000000
+!s107 up_down_3bit_count_asyn.v|tb.v|
+R7
+!i113 1
+R8

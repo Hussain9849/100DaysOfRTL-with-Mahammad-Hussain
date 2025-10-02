@@ -1,0 +1,12 @@
+|nbit_gray_to_binary
+g[0] => b.IN1
+g[1] => b.IN1
+g[2] => b.IN0
+g[3] => b.IN1
+g[3] => b[3].DATAIN
+b[0] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= g[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

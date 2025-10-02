@@ -1,0 +1,6 @@
+`include "srff"
+module jk_sr(clk,j,k,q,qb);
+   input clk,j,k;
+   output q,qb;
+
+endmodule

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day87
+vmod5_up_counter
+Z1 !s110 1758906668
+!i10b 1
+!s100 9UYnO<lSUFBC7VQ:NQf=m0
+IY>n`bNShlhi1HeKOn1<?61
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758906491
+8mod5_asy_cou.v
+Fmod5_asy_cou.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1758906668.000000
+Z5 !s107 mod5_asy_cou.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 Uof_G6IF`?:`fM>UML]de0
+I1bfR?g:VzR_FZbz6o40jO1
+R2
+R0
+w1758906664
+Z8 8tb.v
+Z9 Ftb.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb_mod5_up_counter
+!s110 1758906649
+!i10b 1
+!s100 XIzUDF7Uz;eUST@_:G9I82
+IWEH=SVW2@lC5DLNBRWhMe3
+R2
+R0
+w1758906625
+R8
+R9
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1758906649.000000
+R5
+R6
+!i113 1
+R7

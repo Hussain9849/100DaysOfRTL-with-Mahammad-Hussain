@@ -1,0 +1,44 @@
+|Decoder38Using24
+D[0] => D[0].IN2
+D[1] => D[1].IN2
+D[2] => D[2].IN1
+Y[0] <= Decoder2_4:D0.y
+Y[1] <= Decoder2_4:D0.y
+Y[2] <= Decoder2_4:D0.y
+Y[3] <= Decoder2_4:D0.y
+Y[4] <= Decoder2_4:D1.y
+Y[5] <= Decoder2_4:D1.y
+Y[6] <= Decoder2_4:D1.y
+Y[7] <= Decoder2_4:D1.y
+
+
+|Decoder38Using24|Decoder2_4:D0
+e => y.IN0
+e => y.IN0
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[1] => y.IN1
+i[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder38Using24|Decoder2_4:D1
+e => y.IN0
+e => y.IN0
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[1] => y.IN1
+i[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

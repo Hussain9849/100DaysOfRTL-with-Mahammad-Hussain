@@ -1,0 +1,35 @@
+|seq_coun
+clk => clk.IN3
+rst => rst.IN3
+count[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= t_ff:ff3.q
+countb[0] <= t_ff:ff1.qb
+countb[1] <= t_ff:ff2.qb
+countb[2] <= t_ff:ff3.qb
+
+
+|seq_coun|t_ff:ff1
+t => q.OUTPUTSELECT
+rst => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_coun|t_ff:ff2
+t => q.OUTPUTSELECT
+rst => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_coun|t_ff:ff3
+t => q.OUTPUTSELECT
+rst => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

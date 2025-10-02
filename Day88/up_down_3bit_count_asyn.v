@@ -1,0 +1,13 @@
+module up_down_3bit_count_asyn (clk,rst,count,mode);
+  input clk,rst,mode;
+  output reg [2:0]count;
+  always@(posedge clk or posedge rst)begin
+    if(rst==1) count<=3'b000;
+	else begin
+	 if(mode==1)
+	  count <= count+1;
+	 else 
+	  count <= count-1;
+	end 
+  end
+endmodule

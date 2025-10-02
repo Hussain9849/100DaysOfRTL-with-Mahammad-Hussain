@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day-n04-srff
+vsr_ff
+Z1 !s110 1757164722
+!i10b 1
+!s100 nFcbh`6?BU1a?<aoB3fnd2
+I:ADXOdWNF7nQnjYjRn8EX3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756467127
+8sr_ff.v
+Fsr_ff.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1757164722.000000
+Z5 !s107 sr_ff.v|sr_fftb.v|
+Z6 !s90 -reportprogress|300|sr_fftb.v|
+!i113 1
+Z7 tCvgOpt 0
+vsr_fftb
+R1
+!i10b 1
+!s100 ^E9VIQHo@TCAT1XKJS1]B0
+IXKTmnz50lIfBhj<OKVdhf1
+R2
+R0
+w1756466732
+8sr_fftb.v
+Fsr_fftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

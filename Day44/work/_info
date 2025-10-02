@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day44
+vFull_Adder
+Z1 !s110 1755177370
+!i10b 1
+!s100 Y?[9jE[_5W>VeH[dD8_Jd1
+I?oIXJkiibU@GfWgQBVG0a2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1751786441
+Z4 8Full_Adder.v
+Z5 FFull_Adder.v
+L0 2
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1755177370.000000
+Z8 !s107 Full_Adder.v|Nbit_FullAdder_Structural.v|Nbit_FullAdder_Structural_tb.v|
+Z9 !s90 -reportprogress|300|Nbit_FullAdder_Structural_tb.v|
+!i113 1
+Z10 tCvgOpt 0
+n@full_@adder
+vFull_Adder_TB
+R1
+!i10b 1
+!s100 nZD@a=iV?_?WOOj0fYkGG1
+IHF@K<<Z[WhZFmDNE:]9bM0
+R2
+R0
+R3
+R4
+R5
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@full_@adder_@t@b
+vFullAdder_4bit
+Z11 !s110 1755176607
+!i10b 1
+!s100 5P@cmQZU0A^lg??25Wm1]2
+I=QH6QoPTKX:6G;9]D0IXi1
+R2
+R0
+Z12 w1751874768
+Z13 8FullAdder_4bit.v
+Z14 FFullAdder_4bit.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z15 !s108 1755176607.000000
+Z16 !s107 FullAdder_4bit.v|Nbit_FullAdder_Structural.v|Nbit_FullAdder_Structural_tb.v|
+R9
+!i113 1
+R10
+n@full@adder_4bit
+vFullAdder_4bit_TB
+R11
+!i10b 1
+!s100 UY267b79R@NUF`5g`PT:L2
+IRcVnb;UfUZU8U[=B1=H^S1
+R2
+R0
+R12
+R13
+R14
+L0 9
+R6
+r1
+!s85 0
+31
+R15
+R16
+R9
+!i113 1
+R10
+n@full@adder_4bit_@t@b
+vNbit_FullAdder_Structural
+R1
+!i10b 1
+!s100 O94?ej[z3OZoE[0hlAiA=1
+IFCKQMzS:fEjL1PXS?=;FE1
+R2
+R0
+w1755176809
+8Nbit_FullAdder_Structural.v
+FNbit_FullAdder_Structural.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@nbit_@full@adder_@structural
+vtb
+R1
+!i10b 1
+!s100 c2:DBj8bNMnS:9@?iAMFk2
+IDK>02HfnASHPV4iEUR;iM2
+R2
+R0
+w1755177365
+8Nbit_FullAdder_Structural_tb.v
+FNbit_FullAdder_Structural_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

@@ -1,0 +1,9 @@
+|srlatch_enable
+S => g3.IN0
+R => g4.IN0
+en => g3.IN1
+en => g4.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= g2.DB_MAX_OUTPUT_PORT_TYPE
+
+

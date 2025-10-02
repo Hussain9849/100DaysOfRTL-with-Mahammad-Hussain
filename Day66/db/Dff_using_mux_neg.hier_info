@@ -1,0 +1,32 @@
+|d_ff_edgeTrigger_using_mux
+D => D.IN1
+clk => clk.IN1
+Q <= dlatch_negative_level_sensitive:slave.q
+
+
+|d_ff_edgeTrigger_using_mux|dlatch_positive_level_sensitive:master
+d => d.IN1
+en => en.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_edgeTrigger_using_mux|dlatch_positive_level_sensitive:master|mux21:m
+i0 => y.DATAA
+i1 => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_edgeTrigger_using_mux|dlatch_negative_level_sensitive:slave
+d => d.IN1
+en => en.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_edgeTrigger_using_mux|dlatch_negative_level_sensitive:slave|mux21:m
+i0 => y.DATAA
+i1 => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

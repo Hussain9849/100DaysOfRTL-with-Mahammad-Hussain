@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day84
+vjk_ff
+Z1 !s110 1758284688
+!i10b 1
+!s100 gGOY:c4Ba;j=LCYoaN1kn3
+IQfAKhd`jJTk8eC[kQW;<81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758284365
+8jk_ff.v
+Fjk_ff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1758284688.000000
+Z5 !s107 jk_ff.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 6NISS`4h7Kdb>VZ]G^[]o2
+IokjZ?NKKYFh80n>oQII;z0
+R2
+R0
+w1758283870
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb_counter
+Z8 !s110 1758285546
+!i10b 1
+!s100 2eIIm:choUSYi3Onf`@Rn3
+IiPBP7EEcK;m[dV`=c6ULo0
+R2
+R0
+w1758285078
+8tb_counter.v
+Ftb_counter.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1758285546.000000
+Z10 !s107 up_cout_3bit_ayn_jk.v|tb_counter.v|
+Z11 !s90 -reportprogress|300|tb_counter.v|
+!i113 1
+R7
+vup_cout_3bit_ayn_jk
+R8
+!i10b 1
+!s100 H0A4H@aAO8I`3I_8:1d181
+I^H7BSDLcFTd6nOEPljkd83
+R2
+R0
+w1758285533
+8up_cout_3bit_ayn_jk.v
+Fup_cout_3bit_ayn_jk.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R7

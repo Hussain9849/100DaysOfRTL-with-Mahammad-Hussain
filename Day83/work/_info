@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day83
+vasync_counter_tb
+Z1 !s110 1757955832
+!i10b 1
+!s100 6o_IjN[`mcDcfYlClg[8J3
+IL_QKQ]20JU:_bILn]^2>J1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757955664
+8tb.v
+Ftb.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1757955832.000000
+Z5 !s107 async_ripple_counter_3bit_behav.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vasync_ripple_counter_3bit_behav
+R1
+!i10b 1
+!s100 fJMWG86D`JkFVak6o5oZi1
+I7jIDC8QEea3YWZ2o@KgmA3
+R2
+R0
+w1757955731
+8async_ripple_counter_3bit_behav.v
+Fasync_ripple_counter_3bit_behav.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vasync_ripple_counter_3bit_struc
+Z8 !s110 1757955155
+!i10b 1
+!s100 =kH1FiH3G9eAFCgM:Z8Kk0
+ICS@>`zV>SAa9ggP31SI;:1
+R2
+R0
+w1757954036
+8async_ripple_counter_3bit_struc.v
+Fasync_ripple_counter_3bit_struc.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1757955155.000000
+Z10 !s107 t_ff.v|async_ripple_counter_3bit_struc.v|tb.v|
+R6
+!i113 1
+R7
+vt_ff
+R8
+!i10b 1
+!s100 X>EFha>fbk0Y`_FcCFcG@0
+IF8D:Qzb9CbJKUQ@NZUUj;0
+R2
+R0
+w1757955149
+8t_ff.v
+Ft_ff.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+R10
+R6
+!i113 1
+R7

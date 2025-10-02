@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day94
+vsequ_dete_non_over
+!s110 1759166034
+!i10b 1
+!s100 m=ajU=4l5fRcmeJk7z<;o1
+ID2Zj0IbegK@DRL_]6QLPS1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1759165975
+8sequ_dete_non_over.v
+Fsequ_dete_non_over.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1759166033.000000
+!s107 sequ_dete_non_over.v|tb.v|
+Z3 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb
+!s110 1759166348
+!i10b 1
+!s100 f8^L7T2:zUh4jZilEPFS30
+I1lhcV9AnV?iE5;1=L4Zzo3
+R1
+R0
+w1759166344
+Z5 8tb.v
+Z6 Ftb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1759166348.000000
+!s107 tb.v|
+R3
+!i113 1
+R4
+vtb_seq_det_non_over
+!s110 1759165735
+!i10b 1
+!s100 3ZUgT1n<Bl40olz^mCzGk0
+I]G7flD9zg?4BPjTQF6J:e2
+R1
+R0
+w1759165687
+R5
+R6
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1759165735.000000
+!s107 tb.v|
+R3
+!i113 1
+R4

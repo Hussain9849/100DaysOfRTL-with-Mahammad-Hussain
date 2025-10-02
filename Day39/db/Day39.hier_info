@@ -1,0 +1,12 @@
+|Comp1bit
+a => g.IN0
+a => e.IN0
+a => l.IN0
+b => e.IN1
+b => l.IN1
+b => g.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+l <= l.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,80 @@
+|Full_Sub_Using_8_1Mux
+A => Sel[2].IN2
+B => Sel[1].IN2
+Bin => Sel[0].IN2
+Diff <= Mux_8_1:M1.Y
+Borr <= Mux_8_1:M2.Y
+
+
+|Full_Sub_Using_8_1Mux|Mux_8_1:M1
+I[0] => Y.IN0
+I[1] => Y.IN0
+I[2] => Y.IN0
+I[3] => Y.IN0
+I[4] => Y.IN0
+I[5] => Y.IN0
+I[6] => Y.IN0
+I[7] => Y.IN0
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Full_Sub_Using_8_1Mux|Mux_8_1:M2
+I[0] => Y.IN0
+I[1] => Y.IN0
+I[2] => Y.IN0
+I[3] => Y.IN0
+I[4] => Y.IN0
+I[5] => Y.IN0
+I[6] => Y.IN0
+I[7] => Y.IN0
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[0] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[1] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+S[2] => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

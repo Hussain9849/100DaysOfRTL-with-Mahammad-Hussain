@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/100Days/Day-n0.01
+vd_ff_et_um
+Z0 !s110 1756615863
+!i10b 1
+!s100 3BCz1T:@[S>H3VmLhlnJU3
+IP:ecl2eh^<d3MSHl:mL<K3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA/18.1/100Days/Day-n0.3-Dff_Mux
+w1756614992
+8d_ff_edgeTrigger_using_mux.v
+Fd_ff_edgeTrigger_using_mux.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1756615863.000000
+Z5 !s107 dlatch_negative_level_sensitive.v|mux21.v|dlatch_positive_level_sensitive.v|d_ff_edgeTrigger_using_mux.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vd_latch_negative_level
+R0
+!i10b 1
+!s100 =U[k]n8A[d8U6U>CC2CUY3
+InMHEz4=jBDiOLCez6H<ao0
+R1
+R2
+w1756614165
+8dlatch_negative_level_sensitive.v
+Fdlatch_negative_level_sensitive.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vd_latch_positive_level
+R0
+!i10b 1
+!s100 WGDn;DfSVUdz2aj<9_z8g1
+IC:?:;HPnk?0_ZcK1C<hYA3
+R1
+R2
+w1756613482
+8dlatch_positive_level_sensitive.v
+Fdlatch_positive_level_sensitive.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux21
+R0
+!i10b 1
+!s100 dK87Ga:nHNfI=dDa0>F<P0
+IzIn2fh`Ol7@SKnIL[5`5c2
+R1
+R2
+w1756612792
+8mux21.v
+Fmux21.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb
+R0
+!i10b 1
+!s100 jmahGZ[l2BMbJmZ<R[49_3
+IMQ1Ez0J^Ud:WVh?PD[2@X0
+R1
+R2
+w1756615857
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

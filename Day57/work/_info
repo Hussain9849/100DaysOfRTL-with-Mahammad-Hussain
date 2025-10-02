@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day57
+vDecoder2_4
+Z1 !s110 1756293715
+!i10b 1
+!s100 Lh4bzn^zIQWE_4OJWiJ260
+Id05DBFzn2WH0z4N@?9?_D0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1754062391
+8Decoder2_4.v
+FDecoder2_4.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1756293715.000000
+Z5 !s107 Decoder2_4.v|Ha_Decoder24.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@decoder2_4
+vHa_Decoder24
+R1
+!i10b 1
+!s100 G8MAmU:9A`@2^oJ3Dg^6Z0
+I1120]R@oC_J2Oz?@koZa;0
+R2
+R0
+w1756293348
+8Ha_Decoder24.v
+FHa_Decoder24.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@ha_@decoder24
+vtb
+R1
+!i10b 1
+!s100 oM7Ie8eNL;;li^b_=madG0
+IMWFS9>LF[_b6zHHnGA8f@0
+R2
+R0
+w1756293692
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

@@ -1,0 +1,28 @@
+|Full_Sub_Using2_1Mux
+A => A.IN2
+B => G1.IN0
+B => G3.IN0
+B => G4.IN0
+Bin => G1.IN1
+Bin => G3.IN1
+Bin => G4.IN1
+Diff <= mux2_1:M1.y
+Borr <= mux2_1:M2.y
+
+
+|Full_Sub_Using2_1Mux|mux2_1:M1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+a => y.IN0
+b => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+
+
+|Full_Sub_Using2_1Mux|mux2_1:M2
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+a => y.IN0
+b => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+
+

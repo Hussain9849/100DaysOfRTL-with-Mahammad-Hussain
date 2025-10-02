@@ -1,0 +1,46 @@
+|FullAdder_Using1_4Demux
+A => A.IN1
+B => B.IN2
+Cin => Cin.IN2
+Sum <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= g2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FullAdder_Using1_4Demux|Demux1_4:D1
+E => y.IN0
+E => y.IN0
+i => y.IN1
+i => y.IN1
+i => y.IN1
+i => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FullAdder_Using1_4Demux|Demux1_4:D2
+E => y.IN0
+E => y.IN0
+i => y.IN1
+i => y.IN1
+i => y.IN1
+i => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[0] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

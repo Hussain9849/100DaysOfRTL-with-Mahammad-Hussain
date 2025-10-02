@@ -1,0 +1,9 @@
+|HalfSub
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Borr <= Borr.DB_MAX_OUTPUT_PORT_TYPE
+a => Diff.IN0
+a => Borr.IN0
+b => Diff.IN1
+b => Borr.IN1
+
+

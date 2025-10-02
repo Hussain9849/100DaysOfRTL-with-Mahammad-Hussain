@@ -1,0 +1,16 @@
+|dff_using_tff
+d => g1.IN1
+rst => rst.IN1
+clk => clk.IN1
+q <= t_ff:tff.q
+qb <= t_ff:tff.qb
+
+
+|dff_using_tff|t_ff:tff
+t => q.OUTPUTSELECT
+rst => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

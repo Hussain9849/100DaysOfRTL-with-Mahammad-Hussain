@@ -1,0 +1,40 @@
+|Full_Sub_Using_4_1Mux
+A => S[1].IN2
+B => S[0].IN2
+Bin => I_Borr[0].IN4
+Diff <= Mux_4_1:M1.y
+Borr <= Mux_4_1:M2.y
+
+
+|Full_Sub_Using_4_1Mux|Mux_4_1:M1
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Full_Sub_Using_4_1Mux|Mux_4_1:M2
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

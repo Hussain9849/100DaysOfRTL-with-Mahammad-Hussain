@@ -1,0 +1,38 @@
+|up_cout_3bit_ayn_jk
+clk => clk.IN1
+rst => rst.IN3
+count[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= jk_ff:ff3.q
+count_bar[0] <= jk_ff:ff1.qb
+count_bar[1] <= jk_ff:ff2.qb
+count_bar[2] <= jk_ff:ff3.qb
+
+
+|up_cout_3bit_ayn_jk|jk_ff:ff1
+j => Mux0.IN2
+k => Mux0.IN3
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|up_cout_3bit_ayn_jk|jk_ff:ff2
+j => Mux0.IN2
+k => Mux0.IN3
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|up_cout_3bit_ayn_jk|jk_ff:ff3
+j => Mux0.IN2
+k => Mux0.IN3
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

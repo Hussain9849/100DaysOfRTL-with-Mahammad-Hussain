@@ -1,0 +1,35 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/tb/dut/mem
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+dd
+fe
+ad
+ee
+fd
+db
+af
+ae
+aa
+da
+ea
+ae
+aa
+bc
+ae
+bb
+fe
+bb
+aa
+bb
+cc
+dd
+ee
+ff
+ab
+ba
+bc
+ca
+ba
+ae
+da
+dc

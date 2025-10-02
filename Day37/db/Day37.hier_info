@@ -1,0 +1,49 @@
+|Decoder24_Using_Mux41
+A[0] => A[0].IN4
+A[1] => A[1].IN4
+D[0] <= mux41:m0.y
+D[1] <= mux41:m1.y
+D[2] <= mux41:m2.y
+D[3] <= mux41:m3.y
+
+
+|Decoder24_Using_Mux41|mux41:m0
+i[0] => Mux0.IN3
+i[1] => Mux0.IN2
+i[2] => Mux0.IN1
+i[3] => Mux0.IN0
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder24_Using_Mux41|mux41:m1
+i[0] => Mux0.IN3
+i[1] => Mux0.IN2
+i[2] => Mux0.IN1
+i[3] => Mux0.IN0
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder24_Using_Mux41|mux41:m2
+i[0] => Mux0.IN3
+i[1] => Mux0.IN2
+i[2] => Mux0.IN1
+i[3] => Mux0.IN0
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder24_Using_Mux41|mux41:m3
+i[0] => Mux0.IN3
+i[1] => Mux0.IN2
+i[2] => Mux0.IN1
+i[3] => Mux0.IN0
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,22 @@
+|Ha_Decoder24
+a => a.IN1
+b => b.IN1
+s <= g1.DB_MAX_OUTPUT_PORT_TYPE
+c <= Decoder2_4:I.y
+
+
+|Ha_Decoder24|Decoder2_4:I
+e => y.IN0
+e => y.IN0
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[0] => y.IN1
+i[1] => y.IN1
+i[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

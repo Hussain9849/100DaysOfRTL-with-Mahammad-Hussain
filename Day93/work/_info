@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day90
+vpipo
+!s110 1759152195
+!i10b 1
+!s100 4LdBa[]Ml[n5Og81>f<@21
+IO2a@UGA6jIX<zl;`8_lRl2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1759152013
+8pipo.v
+Fpipo.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1759152195.000000
+!s107 pipo.v|tb.v|
+Z3 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z4 tCvgOpt 0
+vsipo
+!s110 1759154635
+!i10b 1
+!s100 VUNM@O^gG2_m5:@CejJPb0
+IG@1Dhh4cbYaG]c9lk6CkF3
+R1
+dC:/intelFPGA/18.1/100Days/Day92
+w1759154447
+Z5 8sipo.v
+Z6 Fsipo.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1759154635.000000
+!s107 sipo.v|tb.v|
+R3
+!i113 1
+R4
+vsiso
+Z7 !s110 1759161212
+!i10b 1
+!s100 C7J_B@FRG>AngMfh;9m6i1
+IF87hhYGE]b4;oUoIzC0of2
+R1
+Z8 dC:/intelFPGA/18.1/100Days/Day93
+w1759161167
+R5
+R6
+L0 1
+R2
+r1
+!s85 0
+31
+Z9 !s108 1759161211.000000
+Z10 !s107 sipo.v|tb.v|
+R3
+!i113 1
+R4
+vtb
+R7
+!i10b 1
+!s100 z5:GOARRBS5J<Um?5[GVn3
+IXOL:0_M?BFF]D19H;O=]T0
+R1
+R8
+w1759161164
+8tb.v
+Ftb.v
+L0 2
+R2
+r1
+!s85 0
+31
+R9
+R10
+R3
+!i113 1
+R4

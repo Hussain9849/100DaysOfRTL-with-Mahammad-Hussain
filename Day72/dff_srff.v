@@ -1,0 +1,7 @@
+`include "sr_ff.v"
+module dff_srff(d,clk,rst,q,qb);
+  input d,clk,rst;
+  output q,qb;
+  not g1(w0,d);
+  sr_ff sr(.s(d),.r(w0),.clk(clk),.rst(rst),.q(q),.qb(qb));
+endmodule

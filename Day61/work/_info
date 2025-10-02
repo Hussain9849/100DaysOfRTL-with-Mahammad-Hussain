@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day61
+vsrlatch_enable
+Z1 !s110 1756647404
+!i10b 1
+!s100 N?fEmFM6ZHa18>dboZ=oa0
+I:zmdg1Q6LPfdnNhVT_oHJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756647229
+8srlatch_enable.v
+Fsrlatch_enable.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1756647404.000000
+Z5 !s107 srlatch_enable.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 iiC[Q1hQazGzVNoL]PGSG0
+Ib;mE0a3Mz:84;@XC]42@20
+R2
+R0
+w1756647397
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

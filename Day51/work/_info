@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day51
+vnor_latch
+Z1 !s110 1755783592
+!i10b 1
+!s100 @1lm2M6ng_D0[YHWPP6il3
+I0X27Kd5XZR1Z@S@5O_4dA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755783105
+8norLatch.v
+FnorLatch.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1755783592.000000
+Z5 !s107 norLatch.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb_nor_latch
+R1
+!i10b 1
+!s100 Ik0zUT84KX?`gLA1X[FU@1
+I[>F`X>K6e4B`W5UT2CM1T0
+R2
+R0
+w1755783469
+8tb.v
+Ftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

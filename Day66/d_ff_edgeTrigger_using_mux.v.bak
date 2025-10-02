@@ -1,0 +1,9 @@
+`include "dlatch_positive_level_sensitive.v"
+`include "dlatch_negative_level_sensitive.v"
+module d_ff_et_um(D,clk,Q);
+  input D,clk;
+  output Q;
+  wire qm;
+  d_latch_positive_level master(.d(D),.en(clk),.q(qm));
+  d_latch_negative_level slave(.d(qm),.en(~clk),.q(Q));
+endmodule

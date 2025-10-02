@@ -1,0 +1,37 @@
+module Full_Sub_Using_4_1Mux(input A,B,Bin, output Diff, Borr);//Mux_4_1(i, s1, s0, y);
+   wire [1:0]S;
+   wire [3:0]I_diff;
+   wire [3:0]I_Borr;
+   assign S = {A,B};//concatinate
+   assign I_diff = {Bin,~Bin,~Bin,Bin};
+   assign I_Borr = {Bin,1'b0,1'b1,Bin};
+ //instantiate
+   Mux_4_1 M1(.i(I_diff), .s1(S[1]), .s0(S[1]), .y(Diff));
+   Mux_4_1 M2(.i(I_Borr), .s1(S[1]), .s0(S[0]), .y(Borr));
+endmodule
+
+
+module Full_Sub_Using_4_1Mux_tb;
+
+  reg A, B, Bin;
+  wire Diff, Borr;
+
+  Full_Sub_Using_4_1Mux uut (.A(A),.B(B),.Bin(Bin),.Diff(Diff),.Borr(Borr));
+
+  initial begin
+    $display("Time\t A B Bin |Diff Borr");
+    $monitor("%g\t %b %b %b   | %b    %b", $time, A, B, Bin, Diff, Borr);
+
+    A = 0; B = 0; Bin = 0; #10;
+    A = 0; B = 0; Bin = 1; #10;
+    A = 0; B = 1; Bin = 0; #10;
+    A = 0; B = 1; Bin = 1; #10;
+    A = 1; B = 0; Bin = 0; #10;
+    A = 1; B = 0; Bin = 1; #10;
+    A = 1; B = 1; Bin = 0; #10;
+    A = 1; B = 1; Bin = 1; #10;
+
+    $finish;
+  end
+
+endmodule

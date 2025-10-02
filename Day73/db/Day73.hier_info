@@ -1,0 +1,18 @@
+|Tff_srff
+t => g1.IN1
+t => g2.IN1
+clk => clk.IN1
+rst => rst.IN1
+q <= sr_ff:sr.q
+qb <= sr_ff:sr.qb
+
+
+|Tff_srff|sr_ff:sr
+s => Mux0.IN3
+r => Mux0.IN4
+rst => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

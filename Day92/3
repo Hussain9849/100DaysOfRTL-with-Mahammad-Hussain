@@ -1,0 +1,19 @@
+`include "sipo.v"
+module tb;
+  reg clk,si;
+  wire [3:0]q;
+  pipo dut(.clk(clk),.si(si),.q(q));
+  always #5 clk = ~clk;
+  initial begin
+    clk = 0;
+	#10;
+    si = 0;
+	#50;
+	si = 1'b1;#10;
+	si = 1'b1;#10;
+	si = 1'b0;#10;
+	si = 1'b0;#10;
+	#100;
+	$finish;
+  end
+endmodule

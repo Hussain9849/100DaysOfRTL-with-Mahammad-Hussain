@@ -1,0 +1,10 @@
+`include "t_ff.v"
+module seq_coun(clk,rst,count,countb);
+   input clk,rst;
+   output [2:0]count,countb;
+   wire w0;
+   or g2(w0,count[1],~count[0]);
+   t_ff ff1(.t(w0),.rst(rst),.clk(clk),.q(count[0]),.qb(countb[0]));
+   t_ff ff2(.t(count[0]),.rst(rst),.clk(clk),.q(count[1]),.qb(countb[1]));
+   t_ff ff3(.t(count[1]),.rst(rst),.clk(clk),.q(count[2]),.qb(countb[2]));
+endmodule

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/SRff_dff
+vd_ff
+Z1 !s110 1757518868
+!i10b 1
+!s100 g7OfI>OGj[YS]j4@O<HeW2
+Im=;hnJleFC`l`QaQ7dQMg2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756465322
+8d_ff.v
+Fd_ff.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1757518868.000000
+Z5 !s107 d_ff.v|srff_using_dff.v|sr_fftb.v|
+Z6 !s90 -reportprogress|300|sr_fftb.v|
+!i113 1
+Z7 tCvgOpt 0
+vsr_fftb
+R1
+!i10b 1
+!s100 7MhfZ:Kh2Jb<SVT5@lB__0
+Iabe9T6cVLiJ9doTAl`j5z1
+R2
+R0
+w1757517501
+8sr_fftb.v
+Fsr_fftb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsrff_using_dff
+R1
+!i10b 1
+!s100 f2d6KPE^?OHNDO@hddAfY3
+IAW@]f@7;D?of`aljG[7`Y1
+R2
+R0
+w1757518861
+8srff_using_dff.v
+Fsrff_using_dff.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

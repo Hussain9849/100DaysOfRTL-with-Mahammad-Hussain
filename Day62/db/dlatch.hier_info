@@ -1,0 +1,9 @@
+|d_latch
+d => g0.IN0
+d => g1.IN0
+en => g0.IN1
+en => g1.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+qb <= g3.DB_MAX_OUTPUT_PORT_TYPE
+
+

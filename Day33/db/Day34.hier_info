@@ -1,0 +1,17 @@
+|Encoder83
+D[0] => ~NO_FANOUT~
+D[1] => Y.IN1
+D[2] => Y.IN1
+D[3] => Y.IN1
+D[3] => Y.IN1
+D[4] => Y.IN1
+D[5] => Y.IN1
+D[5] => Y.IN0
+D[6] => Y.IN0
+D[7] => Y.IN1
+D[7] => Y.IN1
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

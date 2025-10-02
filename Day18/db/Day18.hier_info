@@ -1,0 +1,8 @@
+|Mux_as_Inverter
+A => Abar.IN0
+A => Abar.IN0
+i0 => Abar.IN1
+i1 => Abar.IN1
+Abar <= Abar.DB_MAX_OUTPUT_PORT_TYPE
+
+

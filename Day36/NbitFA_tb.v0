@@ -1,0 +1,17 @@
+module NbitFA_tb;
+ parameter N = 7
+ reg [N-1:0]a,b;
+ reg cin
+ wire [N-1:0]s;
+ wire co;
+ `include "NbitFA.v"
+ NbitFA #(.N(N)) dut(a,b,cin,s,co);
+ initial begin
+  repeat(10)begin
+   {a,b,cin} = $random();
+   #3;
+   $display("a=%bb=%b c=%b s=%b co=%b",a,b,c,s,co);
+  end
+ end
+
+endmodule

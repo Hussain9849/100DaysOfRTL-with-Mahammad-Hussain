@@ -1,0 +1,7 @@
+//`include "mux21.v"
+module d_latch_positive_level(d,en,q);
+    input d,en;
+	output q;
+    mux21 m(.i1(d),.i0(q),.s(en),.y(q)); 
+
+endmodule

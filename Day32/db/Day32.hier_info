@@ -1,0 +1,11 @@
+|Encoder42
+i[0] => ~NO_FANOUT~
+i[1] => Decoder1.IN2
+i[2] => Decoder0.IN1
+i[2] => Decoder1.IN1
+i[3] => Decoder0.IN0
+i[3] => Decoder1.IN0
+y[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

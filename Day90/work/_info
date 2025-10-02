@@ -1,0 +1,171 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day-NN-up-down-asy
+vd_ff
+Z1 !s110 1758377308
+!i10b 1
+!s100 llDX=MKFLmAmWB7Pc4CK73
+IaeG<L<hZ6Y6i^>z_=A]EF2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/intelFPGA/18.1/100Days/Day-NN-04-Ring-counter-dff
+w1758377292
+8d_ff.v
+Fd_ff.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1758377308.000000
+Z6 !s107 d_ff.v|ring_counter_4bit_using_dff.v|tb_counter.v|
+Z7 !s90 -reportprogress|300|tb_counter.v|
+!i113 1
+Z8 tCvgOpt 0
+vd_fftb
+!s110 1758373648
+!i10b 1
+!s100 WhV7@gmPzGGFg_P]Ee0D03
+I`CL1R=Ba9Zok5_6VSGWVA1
+R2
+R3
+w1758373644
+8d_fftb.v
+Fd_fftb.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1758373648.000000
+!s107 d_ff.v|d_fftb.v|
+!s90 -reportprogress|300|d_fftb.v|
+!i113 1
+R8
+vDecade_count_asyn
+!s110 1758372676
+!i10b 1
+!s100 fnPoWgcQ7]TUQ=j@@o:d_3
+Ihdb[5XdXBdgG`=Cj3C7Wd2
+R2
+R3
+w1758370888
+8Decade_count_asyn.v
+FDecade_count_asyn.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1758372676.000000
+!s107 Decade_count_asyn.v|tb.v|
+Z9 !s90 -reportprogress|300|tb.v|
+!i113 1
+R8
+n@decade_count_asyn
+vring_counter
+Z10 !s110 1758478613
+!i10b 1
+!s100 H_TVnkPni4P@cmg93c0YW1
+IYS9@kXncL1Le7cT09f8z92
+R2
+R3
+w1758478315
+Z11 8ring_counter_4bit_using_dff.v
+Z12 Fring_counter_4bit_using_dff.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1758478612.000000
+Z14 !s107 ring_counter_4bit_using_dff.v|tb.v|
+R9
+!i113 1
+R8
+vring_counter_4bit_using_dff
+R1
+!i10b 1
+!s100 JLn<ZdPdoGJnIjLgJWd9z1
+I`7F<GfNnnM95QFF2k]JA<3
+R2
+R3
+w1758377155
+R11
+R12
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtb
+R10
+!i10b 1
+!s100 8X05oJ5HEoaaSAXSB=f?^2
+I5Jil9aXe6C6m>:kGQcEM:0
+R2
+R3
+w1758478582
+8tb.v
+Ftb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+R14
+R9
+!i113 1
+R8
+vtb_ring_counter
+R1
+!i10b 1
+!s100 3n[ng19_<c`?Q]Mo52:452
+Ii?A]cT04Paz6ZWaj@Ide01
+R2
+R3
+w1758377195
+8tb_counter.v
+Ftb_counter.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vup_down_3bit_count_asyn
+!s110 1758370140
+!i10b 1
+!s100 bS[nH`_YXc>g`0WkMNkI^3
+IYgzI;C`Ti]TVSC^0j0n:J2
+R2
+R0
+w1758369767
+8up_down_3bit_count_asyn.v
+Fup_down_3bit_count_asyn.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1758370140.000000
+!s107 up_down_3bit_count_asyn.v|tb.v|
+R9
+!i113 1
+R8

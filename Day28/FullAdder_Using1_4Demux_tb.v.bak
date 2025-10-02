@@ -1,0 +1,13 @@
+`include "FullAdder_Using1_4Demux.v"
+module FullAdder_Using1_4Demux_tb;
+   reg A,B,Cin;
+   wire Sum,Carry;
+   FullAdder_Using1_4Demux DUT(.A(A),.B(B),.Cin(Cin),.Sum(Sum),.Carry(Carry));
+   initial begin
+     $display("A=%b B=%b Cin=%b Sum=%b Carry=%b",A,B,Cin,Sum,Carry);
+	 repeat(20)begin
+	   {A,B,Cin} = $random();
+	   #2;
+	   end
+   end
+endmodule

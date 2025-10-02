@@ -1,0 +1,26 @@
+|Demux1_2_Using_1_4Demux
+I => I.IN1
+S => S.IN2
+Y[0] <= Demux1_4:D.y
+Y[1] <= Demux1_4:D.y
+
+
+|Demux1_2_Using_1_4Demux|Demux1_4:D
+i => y.IN1
+i => y.IN1
+i => y.IN1
+i => y.IN1
+s[0] => y.IN0
+s[0] => y.IN0
+s[0] => y.IN0
+s[0] => y.IN0
+s[1] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

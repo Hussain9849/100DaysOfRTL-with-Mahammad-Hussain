@@ -1,0 +1,21 @@
+`timescale 1ns/1ps
+module tb;
+ reg clk;
+ real tp,ton,toff,dc;
+ initial begin
+   tp = 5;
+   dc = 80;
+   ton = (dc*tp)/100;
+   toff = ((100-dc)*tp)/100.0;
+   forever begin
+    clk = 0;
+	#(toff);
+	clk = 1;
+	#(ton);
+   end
+ end
+ initial begin
+   #100;
+   $finish;
+ end
+endmodule

@@ -1,0 +1,28 @@
+//DUT
+module mux2_1(y,a,b,s0);
+    input a,b,s0;
+    output y;
+    assign y = (~s0&a) | (s0&b);
+endmodule
+
+module mux2_1_tb;
+  reg a, b, s0;
+  wire y;
+
+  // Instantiate the DUT
+  mux2_1 UUT (.y(y),.a(a),.b(b),.s0(s0));
+
+  initial begin
+    $display("Time\t s0 a b | y");
+    $monitor("%g\t %b  %b %b | %b", $time, s0, a, b, y);
+
+    // Test all combinations
+    s0 = 0; a = 0; b = 0; #10;
+    s0 = 0; a = 1; b = 0; #10;
+    s0 = 1; a = 0; b = 1; #10;
+    s0 = 1; a = 1; b = 0; #10;
+    s0 = 1; a = 1; b = 1; #10;
+
+    $finish;
+  end
+endmodule

@@ -1,0 +1,30 @@
+//DUT
+module Full_Adder(a,b,cin,sum,carry);
+  input a,b,cin;
+  output sum,carry;
+  
+  assign sum = a ^ b ^ cin;
+  assign carry = (a&b) | (b&cin)| (cin&a);
+
+endmodule
+
+//Test Bench
+
+module Full_Adder_TB;
+  reg a,b,cin;
+  wire sum,carry;
+  
+  Full_Adder F1(.a(a),.b(b),.cin(cin),.sum(sum),.carry(carry));
+  initial begin
+  $display("Time\t a b cin | sum carry");
+  $monitor("%g\t %b %b %b  | %b   %b",$time,a,b,cin,sum,carry);
+  a = 1'b0;b = 1'b0; cin = 1'b0;#100;
+  a = 1'b0;b = 1'b0; cin = 1'b1;#100;
+  a = 1'b0;b = 1'b1; cin = 1'b0;#100;
+  a = 1'b0;b = 1'b1; cin = 1'b1;#100;
+  a = 1'b1;b = 1'b0; cin = 1'b0;#100;
+  a = 1'b1;b = 1'b0; cin = 1'b1;#100;
+  a = 1'b1;b = 1'b1; cin = 1'b0;#100;
+  a = 1'b1;b = 1'b1; cin = 1'b1;#100;
+  end
+endmodule

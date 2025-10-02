@@ -1,0 +1,16 @@
+|melay_seq_det_over
+clk => state~1.DATAIN
+rst => state~3.DATAIN
+valid => next_state.OUTPUTSELECT
+valid => next_state.OUTPUTSELECT
+valid => patt_det.OUTPUTSELECT
+valid => next_state.OUTPUTSELECT
+valid => Selector1.IN2
+valid => Selector2.IN2
+d_in => next_state.DATAB
+d_in => next_state.DATAB
+d_in => patt_det.DATAB
+d_in => next_state.DATAB
+patt_det <= patt_det.DB_MAX_OUTPUT_PORT_TYPE
+
+

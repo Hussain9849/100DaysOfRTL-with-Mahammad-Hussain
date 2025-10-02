@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at GrayToBinary_3bit.v(1): object "g2" differs only in case from object "G2" in the same scope File: C:/intelFPGA/18.1/100Days/Day24/GrayToBinary_3bit.v Line: 1

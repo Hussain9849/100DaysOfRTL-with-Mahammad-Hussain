@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/100Days/Day86-seqence
+T_opt
+!s110 1758728957
+V2N2M_lURSRon6BYSom@Y_2
+04 2 4 work tb fast 0
+=1-3003c83ac1c7-68d412fd-5e-4a78
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vseq_cou
+Z2 !s110 1758729458
+!i10b 1
+!s100 :U5Fc6N51aW3`<i0=6<W02
+IDSdWFfUg_WbE9R9B7lgaE0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758728839
+8seq_coun.v
+Fseq_coun.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1758729458.000000
+Z6 !s107 t_ff.v|seq_coun.v|tb.v|
+Z7 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vt_ff
+R2
+!i10b 1
+!s100 bQ0JSnT=K09hR<1UkY1@Y2
+I5=EA5ONcbo9Tgf`Dj_F?l1
+R3
+R0
+w1756468031
+8t_ff.v
+Ft_ff.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R1
+vtb
+R2
+!i10b 1
+!s100 mnB3@kLQYAaKfI:]Ne6TU0
+IcSB>kRPR9Ki_Dmdn:HL^`3
+R3
+R0
+w1758729454
+8tb.v
+Ftb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R1

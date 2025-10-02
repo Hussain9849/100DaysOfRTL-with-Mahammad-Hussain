@@ -1,0 +1,66 @@
+|Mux10_1Using4_1
+I[0] => I_Mux1[0].IN1
+I[1] => I_Mux2[0].IN1
+I[2] => I_Mux1[1].IN1
+I[3] => I_Mux2[1].IN1
+I[4] => I_Mux1[2].IN1
+I[5] => I_Mux2[2].IN1
+I[6] => I_Mux1[3].IN1
+I[7] => I_Mux2[3].IN1
+I[8] => I_Mux3[2].IN1
+I[9] => I_Mux3[3].IN1
+S[0] => S[0].IN1
+S[1] => S[1].IN2
+S[2] => S[2].IN2
+S[3] => S[3].IN1
+Y <= Mux_4_1:M3.y
+
+
+|Mux10_1Using4_1|Mux_4_1:M1
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Mux10_1Using4_1|Mux_4_1:M2
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Mux10_1Using4_1|Mux_4_1:M3
+i[0] => y.IN1
+i[1] => y.IN1
+i[2] => y.IN1
+i[3] => y.IN1
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s1 => y.IN0
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+s0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

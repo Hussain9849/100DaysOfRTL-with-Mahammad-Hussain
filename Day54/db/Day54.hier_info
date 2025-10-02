@@ -1,0 +1,7 @@
+|SRlatch_nand
+S => g0.IN1
+R => g2.IN0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= g2.DB_MAX_OUTPUT_PORT_TYPE
+
+

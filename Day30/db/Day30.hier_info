@@ -1,0 +1,35 @@
+|mux41using21
+en => en.IN3
+I[0] => I[0].IN1
+I[1] => I[1].IN1
+I[2] => I[2].IN1
+I[3] => I[3].IN1
+S[0] => S[0].IN2
+S[1] => S[1].IN1
+Y <= Mux21:m3.y
+
+
+|mux41using21|Mux21:m1
+e => y.OUTPUTSELECT
+i[0] => y.DATAA
+i[1] => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux41using21|Mux21:m2
+e => y.OUTPUTSELECT
+i[0] => y.DATAA
+i[1] => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux41using21|Mux21:m3
+e => y.OUTPUTSELECT
+i[0] => y.DATAA
+i[1] => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
